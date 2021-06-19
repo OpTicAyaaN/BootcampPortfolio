@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ayaan Gill | Venmo</title>
+	<meta name="description" content="The UX (User Experience) Design Portfolio of Ayaan Gill. Venmo mobile redesign.">
+	<link rel="shortcut icon" href="img/logo.ico">
+	<link rel="canonical" href="https://ayaangill.com/venmo">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-firestore.js"></script>
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "Person",
+		  "name": "Ayaan Gill",
+		  "url": "https://ayaangill.com",
+		  "sameAs": [
+		    "http://www.linkedin.com/in/ayaangill"
+		  ]
+		}
+	</script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+	<a class="navbar-brand abs" href="index.html"><b class="header-logo">AYAAN GILL</b></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="index.html">WORK</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="about.html">ABOUT</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<div class="main-content">
+
+<div class="d-none d-md-block">
+	<img src="img/venmo/venmobanner.png" class="img-fluid">
+</div>
+<div class="d-md-none">
+	<img src="img/venmo/venmobannermobile.png" class="img-fluid">
+</div>
+
+<div class="row padding justify-content-center container-fluid">
+	<div class="col-12"></div>
+	<div class="col-12 col-md-6 justify-content-center">
+		<h4 style="font-weight: lighter;">Venmo Mobile Redesign</h4>
+		<br>
+		<p>This project is the outcome of a design course project that I completed along with five other students. The purpose of the project was to complete a data-driven redesign of a commonly used product or service. We chose to redesign Venmo, one of the most popular peer-to-peer payment apps.</p>
+		<br>
+		<p><b>My Role:</b> Conducting Interviews, User Testing, Interaction Design, Visual Design</p>
+		<br><br>
+		<h4 style="font-weight: lighter;">Research Methodology</h4>
+		<br>
+		<p>Venmo is an app that is commonly and frequently used by college students. For this reason, we felt that college students would be a good demographic for our interviews and we could optimize the app with that data because there would be a range of use levels and reasons for use. We wanted to ask students all around campus to ensure a range of ages, majors, and levels of use. In doing this, we conducted interviews using the Master-Apprentice model, asking interviewees to show us how they use the app, instead of asking direct questions.</p>
+		<br><br>
+		<h4 style="font-weight: lighter;">Problems & Trends</h4>
+		<br>
+		<ul>
+			<li>17 out of 23 interviewees didn’t use the social feed, didn’t care about it, or found it unnecessary to know about other people’s transactions. Other than providing a small form of entertainment, it’s proven to be insignificant enough to be placed on Venmo’s homepage.</li>
+			<li>4 out of 23 interviewees accidentally requested money instead of paying it, as a result of the lack of visual distinction between buttons</li>
+			<li>10 out of 23 interviewees expressed difficulty with bringing up their QR code for others to scan and pay them</li>
+		</ul>
+		<br><br>
+		<h4 style="font-weight: lighter;">Redesign</h4>
+		<br>
+		<h5 style="font-weight: lighter;">Issue 1: Overly Prominent Social Feed</h5>
+		<div class="row justify-content-center">
+		<div class="col-md-5 text-center">
+			<img src="img/venmo/venmoissue1a.png" class="img-fluid">
+		</div>
+		<div class="col-md-1"></div>
+		<div class="col-md-5">
+			<img src="img/venmo/venmoissue1b.gif" class="img-fluid">
+		</div>
+		<div class="col-md-12 text-center">
+			<p>Current Venmo Home Screen Social Feed (Left) vs Redesign Sidebar Location (Right)</p>
+		</div>
+		</div>
+		<br>
+		<p>The social feed is one of the main features of Venmo, but through our interviews, we discovered that many users find the feed to be useless. We attempted to address this issue in our initial prototype by moving the social feed to be at a lower portion of the home screen but that resulted in the feed being awkwardly placed and intrusive. To fix this issue in our final redesign, we decided to add a social feed into the sidebar that leads to a feed that is very similar to the original app except that it excludes the global feed. We decided to remove the global feed because none of the interviewees used that feature. With this change, the user has easier access to features on the home screen that were determined as important through the interviews, while still retaining the social feed aspect of Venmo.
+</p>
+		<br><br>
+		<h5 style="font-weight: lighter;">Issue 2: Visual Distinction of Different Features</h5>
+		<div class="row justify-content-center">
+		<div class="col-md-5 text-center">
+			<img src="img/venmo/venmoissue2a.png" class="img-fluid">
+		</div>
+		<div class="col-md-1"></div>
+		<div class="col-md-5">
+			<img src="img/venmo/venmoissue2b.png" class="img-fluid">
+		</div>
+		<div class="col-md-12 text-center">
+			<p>Current Venmo Pay/Request Process (Left) vs Redesign Process (Right)</p>
+		</div>
+		</div>
+		<br>
+		<p>The next main issue that we noticed was the users were often disoriented by the pay and request buttons because they had identical styles and processes. Instead of keeping the existing design where a user initiates a payment or request from the same button that leads to the same screen, once again leading to two buttons that are the same size and color, we chose to redesign the payment process. On the home button, there are separate pay and request buttons, of different styles, that take you to different screens from which you can only complete the transaction type you chose. Additionally, the amount you are paying will change color, from a neutral black in the existing design to either green when you are requesting or red when you are paying.</p>
+		<br><br>
+		<h5 style="font-weight: lighter;">Issue 3: QR code accessibility</h5>
+		<div class="row justify-content-center">
+		<div class="col-md-5 text-center">
+			<img src="img/venmo/venmoissue3a.gif" class="img-fluid">
+		</div>
+		<div class="col-md-1"></div>
+		<div class="col-md-5">
+			<img src="img/venmo/venmoissue3b.gif" class="img-fluid">
+		</div>
+		<div class="col-md-12 text-center">
+			<p>Current Venmo QR Code Access (Left) vs Redesign Home Screen QR Location (Right)</p>
+		</div>
+		</div>
+		<br>
+		<p>In order to access the QR code in the current version of Venmo, you have to access the sidebar, then either press on the QR button near your profile picture or press the scan code button then select “My Code”. We decided to address the QR code issues which we neglected in our first prototype. By moving the profile picture onto the main home screen while also slightly increasing the size of the QR code button in order to reduce the odds of users making an action-based slip such as missing the QR button and pressing on the profile picture. Now that the QR button is located on the home screen with a larger size, it is much more easily accessible for users.</p>
+		<br><br>
+		<h4 style="font-weight: lighter;">Tradeoffs</h4>
+		<br>
+		<p>Unfortunately, though we accomplished all the major goals we set out to, no design can ever be perfect, hence the iterative design process. While we tried to minimize them, our redesigned app does have some trade-offs. From a business logistics perspective, minimizing the intrusiveness of the social feed could have potential implications for sponsored content and ad revenue. Additionally, there may be a slight demographic shift, as we push away from Venmo’s existing social media focus. However, the improved visual design and user experience provided by our redesign should potentially return an increased retention rate of new users.</p>
+		<br><br>
+		<h4 style="font-weight: lighter;">Conclusion</h4>
+		<br>
+		<p>Overall from our data collection, we found that the Venmo app is not as user friendly as it could be, and frankly probably should be. The big issues we identified were the over prominent social media feed, lack of efficiency in completing important tasks in the app such as finding a new friend, and the blue monotone design of the app in terms of signifiers and reduction of user errors. In our redesign, these were the biggest problems that we wanted to fix and we did so. The homepage no longer has the social feed. It instead has the pay and request options front and center which makes it easier for the user. Our redesign made the app sleeker and more efficient for users. The next step for this project would be to test out a prototype and do some user testing in the same demographic as before to ensure continuity across the design process. From there, we could decide that we are happy with the new design or continue to improve until we have redesigned the app in a way that satisfies users and company goals.</p>
+	</div>
+</div>
+
+<br>
+</div>
+
+<!--- Footer -->
+<br>
+<div class="footer text-center fixed-bottom">
+	<a href="http://linkedin.com/in/ayaangill" target="_blank"><i class="fab fa-2x fa-linkedin" style="color: white; margin-right: 10px;"></i></a>
+	<a href="http://medium.com/@opticayaan" target="_blank"><i class="fab fa-2x fa-medium" style="color: white; margin-right: 10px;"></i></a>
+	<a href="mailto:aygill@ucsd.edu" target="_blank"><i class="fas fa-2x fa-envelope-square" style="color: white;"></i></a>
+	<br><br>
+	<p>&copy; 2020 by Ayaan Gill. All rights reserved.</p>
+</div>
+<br><br><br>
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ayaan Gill | Cleveland Clinic</title>
+	<meta name="description" content="The UX (User Experience) Design Portfolio of Ayaan Gill. Cleveland Clinic internship.">
+	<link rel="shortcut icon" href="img/logo.ico">
+	<link rel="canonical" href="https://ayaangill.com/clevelandclinic">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-firestore.js"></script>
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "Person",
+		  "name": "Ayaan Gill",
+		  "url": "https://ayaangill.com",
+		  "sameAs": [
+		    "http://www.linkedin.com/in/ayaangill"
+		  ]
+		}
+	</script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+	<a class="navbar-brand abs" href="index.html"><b class="header-logo">AYAAN GILL</b></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+				<a class="nav-link" href="index.html">WORK</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="about.html">ABOUT</a>
+			</li>
+		</ul>
+	</div>
+</nav>
+
+<div class="main-content container-fluid">
+
+<div class="row padding justify-content-center">
+  <div class="col-md-6 text-center">
+    <br><br>
+    <img src="img/cc/cclogo.png" class="img-fluid" style="width: 60%;">
+  </div>
+  <div class="col-md-12"><br></div>
+  <div class="col-md-6">
+    <h4 style="font-weight: lighter;">Introduction</h4>
+    <br>
+    <p>In the spring of 2019, I was fortunate enough to participate in an internship with the imaging informatics team at Cleveland Clinic. One other student and I were tasked with collecting data on the usage of imaging software from the patient and physician perspective and using this data to maximize the efficiency of the software suite. Due to the strict privacy restrictions in the healthcare space, I am unable to divulge the specific data we collected, but one of the more public-facing projects we worked on is displayed below.</p>
+    <br>
+    <img src="img/cc/ccimage1.jpg" class="img-fluid">
+    <br><br><br>
+    <h4 style="font-weight: lighter;">Project Overview</h4>
+    <br>
+    <p>One of the conclusions we drew when observing radiologists and technologists was the profound negative impact of limited patient information on the workflow in the imaging area. Because patients often provide very little information when coming in to have imaging done, tests and diagnoses are often delayed or require further clarification. When questioning patients waiting to have images taken, we learned that most patients would prefer to provide information on their condition before their visit from the comfort of their home, rather than on a clipboard in the waiting room. With this in mind, we began work on a new online appointment request form, which gathers patient information earlier in the process.</p>
+		<br>
+		<p><b>The Goal:</b> Improve the efficiency of radiological diagnostic testing by allowing patients to provide information at the same time that they schedule an appointment</p>
+		<p><b>My Role:</b> Conducting Interviews, User Testing, Interaction Design, Visual Design</p>
+		<br><br>
+		<h4 style="font-weight: lighter;">Research Methodology</h4>
+		<br>
+		<p>Our design improvements were based on the qualitative and quantitative information we gathered from interviewing patients, radiologists, and technologists, as well as observing their uninterrupted workflow. Once again, due to the private nature of the healthcare space, I am unable to provide specific data.</p>
+		<br><br>
+		<h4 style="font-weight: lighter;">Improving the Existing System</h4>
+		<br>
+		<div class="row justify-content-center">
+		<div class="col-md-5 sticky">
+			<p><b>The Current Process</b></p>
+			<p>- Patient makes an appointment online with basic patient info (name, DOB, etc)</p>
+			<p>- While in the waiting room for their appointment, the patient fills out the information on the clipboard, often very limited information is provided</p>
+			<p>- Because of limited patient information, technologist provides radiologists with an overgeneralized and meaningless description, like "pain"</p>
+			<p>- When reading the case, the radiologist may have to request more info to diagnose the patient, as there is not enough info given</p>
+		</div>
+		<div class="col-md-1"></div>
+		<div class="col-md-5 sticky">
+			<p><b>The Improved Process</b></p>
+			<p>- Patient makes an appointment online, given the ability to provide detailed info including text, image, video, or audio submissions</p>
+			<p>- With detailed info provided beforehand, the technologist writes an accurate description of the patient condition</p>
+			<p>- Radiologist can to make a diagnosis quickly with a detailed technologist description</p>
+		</div>
+		</div>
+		<br><br><br>
+		<h4 style="font-weight: lighter;">Low Fidelity Prototype Testing</h4>
+		<br>
+		<div class="justify-content-center">
+			<img src="img/cc/cclowfi.png" class="img-fluid" style="border: 1px gray solid">
+		</div>
+		<br>
+		<p>We used our low fidelity prototypes to complete user testing with patients who used the existing system to schedule their appointments. We found that the layout of the request form was regarded as more usable and more efficient than the existing appointment request process. With a few minor adjustments, we were able to incorporate this low fidelity mockup into our final interactive prototype.</p>
+		<br><br>
+		<h4 style="font-weight: lighter;">Final Design</h4>
+		<br>
+		<div class="justify-content-center">
+			<img src="img/cc/ccfinal.png" class="img-fluid" style="border: 1px gray solid">
+		</div>
+  </div>
+</div>
+
+<br>
+</div>
+
+<!--- Footer -->
+<br>
+<div class="footer text-center fixed-bottom">
+	<a href="http://linkedin.com/in/ayaangill" target="_blank"><i class="fab fa-2x fa-linkedin" style="color: white; margin-right: 10px;"></i></a>
+	<a href="http://medium.com/@opticayaan" target="_blank"><i class="fab fa-2x fa-medium" style="color: white; margin-right: 10px;"></i></a>
+	<a href="mailto:aygill@ucsd.edu" target="_blank"><i class="fas fa-2x fa-envelope-square" style="color: white;"></i></a>
+	<br><br>
+	<p>&copy; 2020 by Ayaan Gill. All rights reserved.</p>
+</div>
+<br><br><br>
+
+</body>
+</html>
